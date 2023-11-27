@@ -1,0 +1,29 @@
+{
+  "name": "lcu-dice-plugin",
+  "version": "2.0.0",
+  "description": "A League of Legends Client plugin to roll dice and stuff",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/baseballlover723/lcu-dice-plugin.git"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "main": "src/diceLcuPlugin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint \"**/*.js\""
+  },
+  "dependencies": {
+    "axios": "^1.6.1",
+    "lcu-plugin": "^2.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.54.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.0"
+  },
+  "keywords": [],
+  "author": "baseballlover723",
+  "license": "GPL3"}
